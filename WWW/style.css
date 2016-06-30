@@ -1,0 +1,334 @@
+* {
+    margin:0;
+    pading:0;
+}
+body {
+    background: linear-gradient(270deg, rgba(94, 255, 246, 0.69) 83px, rgba(41, 14, 14, 0.6) 142%);
+}
+.leiba {
+    width:600px;
+    height:200px;
+    margin:0 auto;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.leiba .p1 {
+    font-family: 'Geisha';
+    color: rgb(255, 104, 0);
+    font-size:100px;
+    font-weight:bold;
+    text-align: center;
+    margin-top:-100.5px;
+    border-radius: 100%;
+    border-left: 15px solid #fdeaff;
+    border-right: 15px solid #fdeaff;
+    background-color: #CAE9F3;
+    text-shadow: 4px 6px 0px rgba(110, 95, 114, 0.31);
+}
+
+.leiba .bigS {
+    color: #00B3EC;
+    font-size:120px;
+    font-weight:bold;
+    padding: 0;
+}
+.leiba .ky {
+    color: #00B3EC;
+}
+.leiba .p2 {
+    font-family: 'Opium Normal';
+    color: rgb(255, 104, 0);
+    font-size:20px;
+    font-weight:bold;
+    text-align: right;
+}
+.leiba .p3 {
+    color: #00B3EC;
+    font-size:20px;
+    font-weight:bold;
+    text-align: right;
+}
+.leiba .podpis {
+    font-family: 'Opium Normal';
+    color: rgb(255, 104, 0);
+    text-indent: 360px;
+    font-size:11px;
+    font-weight:bold;
+    margin-top: -115px;
+}
+.menu {
+    color:#000000;
+    font-family: 'Geisha';
+    width:780px;
+    height:150px;
+    margin:0 auto;
+}
+.video {
+    width:260px;
+    height:150px;
+    float: left;
+}
+.read {
+    width:260px;
+    height:150px;
+    float: left;
+}
+.image {
+    width:260px;
+    height:150px;
+    float: left;
+}
+.menu .video span {
+    display:block;
+}
+.menu .video .text-vis {
+    font-size:36px;
+    text-indent:150px;
+    color: #FFD234;
+    position: relative;
+    z-index: 5;
+    top: 93px;
+    left: -70px;
+}
+.menu .video:hover .text-vis {
+    transition:.75s;
+    font-weight:bold;
+    font-size:50px;
+    text-indent:150px;
+    color: #df6c4f;
+    position: relative;
+    z-index: 5;
+    top: 135px;
+    left: -85px;
+}
+.menu .read span {
+    display:block;
+}
+
+.menu .read .text-vis {
+    font-size:36px;
+    text-indent:150px;
+    color: #3c948b;
+    position: relative;
+    z-index: 5;
+    top: 93px;
+    left: -70px;
+
+}
+.menu .read:hover .text-vis {
+    transition:.75s;
+    font-weight:bold;
+    font-size:50px;
+    text-indent:150px;
+    color: #FFD234;
+    position: relative;
+    z-index: 5;
+    top: 135px;
+    left: -80px;
+}
+.menu .image span {
+    display:block;
+}
+.menu .image .text-vis {
+    font-size:36px;
+    text-indent:150px;
+    color: #FFD234;
+    position: relative;
+    z-index: 5;
+    top: 93px;
+    left: -70px;
+}
+.menu .image:hover .text-vis {
+    transition:.75s;
+    font-weight:bold;
+    font-size:50px;
+    text-indent:150px;
+    color: #3c948b;
+    position: relative;
+    z-index: 5;
+    top: 135px;
+    left: -85px;
+}
+/*    orange cloud */
+#cloud {
+    width: 170px; height: 36px;
+
+    background: #df6c4f;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+
+    position: relative;
+    margin: 88px auto -135px;
+    box-shadow: 4px 0px 1px #000000;
+}
+
+#cloud:after, #cloud:before {
+    content: '';
+    position: absolute;
+    background: #df6c4f;
+    z-index: 5
+}
+#cloud:after {
+    width: 50px; height: 50px;
+    top: -24px; left: 28px;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+#cloud:before {
+    width: 86px; height: 85px;
+    top: -52px; right: 29px;
+
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+
+}
+/*  end  orange cloud */
+
+
+/*    orange cloud 222 */
+#cloud2 {
+    width: 170px; height: 36px;
+
+    background: #FFD234;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+
+    position: relative;
+    margin: 88px auto -135px;
+    box-shadow: 4px 0px 1px #000000;
+}
+
+#cloud2:after, #cloud2:before {
+    content: '';
+    position: absolute;
+    background: #FFD234;
+    z-index: 5
+}
+#cloud2:after {
+    width: 50px; height: 50px;
+    top: -24px; left: 28px;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+#cloud2:before {
+    width: 86px; height: 85px;
+    top: -52px; right: 29px;
+
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+
+}
+/*  end  orange cloud */
+/*    orange cloud 333 */
+#cloud3 {
+    width: 170px; height: 36px;
+
+    background: #3c948b;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+
+    position: relative;
+    margin: 88px auto -135px;
+    box-shadow: 4px 0px 1px #000000;
+}
+
+#cloud3:after, #cloud3:before {
+    content: '';
+    position: absolute;
+    background: #3c948b;
+    z-index: 5
+}
+#cloud3:after {
+    width: 50px; height: 50px;
+    top: -24px; left: 28px;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+#cloud3:before {
+    width: 86px; height: 85px;
+    top: -52px; right: 29px;
+
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+
+}
+/*  end  orange cloud */
+
+@font-face {
+    font-family: 'King';
+    src: url('font/King/569274903-Bayou-Cowboy.eot');
+    src: local('☺'),
+    url('font/King/569274903-Bayou-Cowboy.woff') format('woff'),
+    url('font/King/569274903-Bayou-Cowboy.ttf') format('truetype'),
+    url('font/King/569274903-Bayou-Cowboy.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Main';
+    src: url('font/Main/ninactt-normal.eot');
+    src: local('☺'),
+    url('font/Main/ninactt-normal.woff') format('woff'),
+    url('font/Main/ninactt-normal') format('truetype'),
+    url('font/Main/ninactt-normal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BauhausCTT Regular';
+    src: url('font/BauhausCTT Regular/BauhausCTT Regular.eot');
+    src: local('☺'),
+    url('font/BauhausCTT Regular/BauhausCTT Regular.woff') format('woff'),
+    url('font/BauhausCTT Regular/BauhausCTT Regular.ttf') format('truetype'),
+    url('font/BauhausCTT Regular/BauhausCTT Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geisha';
+    src: url('font/Geisha/Geisha.eot');
+    src: local('☺'),
+    url('font/Geisha/Geisha.woff') format('woff'),
+    url('font/Geisha/Geisha.ttf') format('truetype'),
+    url('font/Geisha/Geisha.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Opium Normal';
+    src: url('font/Opium Normal/Opium Normal.eot');
+    src: local('☺'),
+    url('font/Opium Normal/Opium Normal.woff') format('woff'),
+    url('font/Opium Normal/Opium Normal.ttf') format('truetype'),
+    url('font/Opium Normal/Opium Normal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'technical_di';
+    src: url('font/technical_di/technical_di.eot');
+    src: local('☺'),
+    url('font/technical_di/technical_di.woff') format('woff'),
+    url('font/technical_di/technical_di.ttf') format('truetype'),
+    url('font/technical_di/technical_di.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

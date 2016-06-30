@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MyBlog</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="video.css">
+        <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                var ink, d, x, y;
+                $(".ripplelank").click(function(e){
+                    if($(this).find(".ank").length === 0){
+                        $(this).prepend("<span class='ank'></span>");
+                    }
+
+                    ank = $(this).find(".ank");
+                    ank.removeClass("animate");
+
+                    if(!ank.height() && !ank.width()){
+                        d = Math.max($(this).outerWidth(), $(this).outerHeight());
+                        ank.css({height: d, width: d});
+                    }
+
+                    x = e.pageX - $(this).offset().left - ank.width()/2;
+                    y = e.pageY - $(this).offset().top - ank.height()/2;
+
+                    ank.css({top: y+'px', left: x+'px'}).addClass("animate");
+                });
+            });
+        </script>
+
+
+    </head>
+    <body>
+
+    <!-- SHAPKA verx 3 v 1 strokami-->
+        <div class="shapka">
+            <!-- 1 stroka/ menu / 4 v 1-->
+            <div class="strokamenu">
+                <!-- 1stVideo-->
+                <a  href="video.html"><div class="ripplelank video"><p><span class="symbol">C</span>Видео</p></div></a>
+                <!--2ndRead-->
+                <a  href="read.html"><div class="ripplelank read"><p><span class="symbol">C</span>Статьи</p></div></a>
+                <!--3rdImage-->
+                <a  href="#"><div class="ripplelank image"><p><span class="symbol">C</span>Картинки</p></div></a>
+                <!--4stAbout-->
+                <a  href="#"><div class="ripplelank about"><p><span class="symbol">C</span>About Us</p></div></a>
+            </div>
+
+            <!-- 2 stroka/ottenok -->
+            <div class="ottenok"></div>
+        </div>
+
+
+            <!-- Leiba-->
+            <div class="leiba">
+                <p class="p2">Главная</p>
+                <a href="#" style="text-decoration: none;"><p class="p1">poo<span class="bigS">Sky</span></p></a>
+            </div>
+
+        <!-- Levaya storona fixed-->
+        <div id="left">
+            <div class="reklamaleft1">
+                <p class="p1">РЕКЛАМА</p>
+                <p class="p2">Место для Рекламы <br> <br> <br> <br> <a class="ripplelank buttnext" href="#">Контакт</a></p>
+            </div>
+        </div>
+        
+        <!-- POSTS / Centr s Kontentom-->
+        <div id="center">
+                
+                <!-- TOP 5 VIdeo-->
+                <div class="top5video">
+                    <div class="headtop"></div>
+
+                        <div class="videotop1"></div>
+                        <div class="videotop2"></div>
+                        <div class="videotop3"></div>
+                        <div class="videotop4"></div>
+                        <div class="videotop5"></div>
+
+                </div>
+
+                <!-- Post 1 1Left-->
+                <div class="telo">
+
+                    <div class="text">
+                        <p class="p1">ПОСТ с Роликом №1</p>
+                        <p class="p2"><a class="ripplelank buttnext" href="#">read</a>
+                        </p>
+                    </div>
+                </div>
+                    
+                <!-- Post 2 2right-->
+                <div class="sprava">
+
+                    <div class="text2">
+                        <p class="p1">ПОСТ с Роликом №2</p>
+                        <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                            текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                            текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                            текст текст текст текст текст текст текст текст текст текст текст текст. <a class="ripplelank buttnext" href="#">read</a>
+                    </div>
+                    <div class="foto2"></div>
+                </div>
+
+            <!-- Post 1 3Left-->
+            <div class="telo">
+
+                <div class="text">
+                    <p class="p1">ПОСТ с Роликом №3</p>
+                    <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст. <a class="ripplelank buttnext" href="#">read</a>
+                </div>
+            </div>
+
+            <!-- Post 2 4right-->
+            <div class="sprava">
+
+                <div class="text2">
+                    <p class="p1">ПОСТ с Роликом №4</p>
+                    <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст. текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст<a class="ripplelank buttnext" href="#">read</a>
+                </div>
+            </div>
+
+            <!-- Post 1 5Left-->
+            <div class="telo">
+
+                <div class="text">
+                    <p class="p1">ПОСТ с Роликом №5</p>
+                    <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст. <a class="ripplelank buttnext" href="#">read</a>
+                </div>
+
+            </div>
+
+            <!-- Post 2 6right-->
+            <div class="sprava">
+
+                <div class="text2">
+                    <p class="p1">ПОСТ с Роликом №6</p>
+                    <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст. <a class="ripplelank buttnext" href="#">read</a>
+                </div>
+                <div class="foto2"></div>
+            </div>
+
+
+            <!-- Post 1 7Left-->
+            <div class="telo">
+
+                <div class="text">
+                    <p class="p1">ПОСТ с Роликом №7</p>
+                    <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст. <a class="ripplelank buttnext" href="#">read</a>
+                </div>
+                <div class="foto"></div>
+            </div>
+
+            <!-- Post 2 8right-->
+            <div class="sprava">
+
+                <div class="text2">
+                    <p class="p1">ПОСТ с Роликом №8</p>
+                    <p class="p2">Информация с частью контента. Тест текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст. <a class="ripplelank buttnext" href="#">read</a>
+                </div>
+                <div class="foto2"></div>
+            </div>
+
+                </div>
+
+
+
+        <!-- Pravaya storona fixed-->
+        <div id="right">
+            <div class="bokmenu"></div>
+        </div>
+    </body>
+</html>
